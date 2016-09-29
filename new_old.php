@@ -6,4 +6,7 @@
  * and open the template in the editor.
  */
 
-echo 'test...';
+$asd = new stdClass();
+$asd->test  = "asd";
+
+echo $asd->test;

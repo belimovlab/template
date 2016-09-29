@@ -4,9 +4,9 @@
                 <div class="bottoms_links margin_top_20">
                     <a href="<?php echo base_url('/about')?>">О проекте</a>
                     <a href="<?php echo base_url('/terms')?>">Условия использования</a>
-                    <a href="<?php echo base_url('/about')?>">Рекламодателям</a>
-                    <a href="<?php echo base_url('/about')?>">Поддержка</a>
-                    <a href="<?php echo base_url('/about')?>">Обратная связь</a>
+                    <a href="<?php echo base_url('/ad')?>">Рекламодателям</a>
+                    <a href="<?php echo base_url('/support')?>">Поддержка</a>
+                    <a href="<?php echo base_url('/feedback')?>">Обратная связь</a>
                 </div>
                 <div class="clearfix"></div>
             </div>

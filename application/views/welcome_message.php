@@ -19,6 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script src="/assets/js/progress.min.js"></script>
     </head>
     <body>
+        
         <div class="top_push">
             <div class="container_15">
                 <div class="grid_15 text_align_center">
@@ -249,7 +250,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="actions_dates_item panel"> 
                         
                         <div class="panel_wrapper"> 
-                            <div class="panel_title">Акции и скидки</div> 
+                            <div class="panel_title">Акции и скидки<span class="right_edit"><a href="<?php echo base_url('/best/edit')?>"><i class="fa fa-tasks"></i></a></span></div> 
                             <div class="panel_content"> 
                                 <div class="panel_inner_content"> 
                                     <div class="service_item"> 
@@ -271,7 +272,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         
                     </div><div class="actions_dates_item panel"> 
                         <div class="panel_wrapper"> 
-                            <div class="panel_title">Свободные даты</div> 
+                            <div class="panel_title">Свободные даты<span class="right_edit"><a href="<?php echo base_url('/best/edit')?>">Редактировать</a></span></div> 
                             <div class="panel_content"> 
                                 <div class="panel_inner_content"> 
                                     <div class="service_item"> 
@@ -306,7 +307,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="clearfix"></div> 
                     </div><div class="actions_dates_item panel"> 
                         <div class="panel_wrapper"> 
-                            <div class="panel_title">Услуги</div> 
+                            <div class="panel_title">Услуги<span class="right_edit"><a href="<?php echo base_url('/best/edit')?>">Редактировать</a></span></div> 
                             <div class="panel_content"> 
                                 <div class="panel_inner_content"> 
                                     <div class="service_item"> 

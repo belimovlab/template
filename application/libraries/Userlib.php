@@ -16,6 +16,36 @@ class Userlib {
             return $this->CI->session->userdata('user_logined') ? true : false;
         }
         
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //**************************************************
+        //  Старые функции
+        //
+        //
+        //
+        //**************************************************
         public function user_login($user_info)
         {
             $this->CI->session->set_userdata('user_info',$user_info);

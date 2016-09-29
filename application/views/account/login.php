@@ -7,31 +7,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="panel_wrapper">
                     <div class="panel_title"><?php echo $title;?></div>
                     <div class="panel_content">
+                        <?php if($error):?>
+                        <p class="error">
+                            <?php echo $error;?>
+                        </p>
+                        <?php endif;?>
+                        <?php if($success):?>
+                        <p class="success">
+                            <?php echo $success;?>
+                        </p>
+                        <?php endif;?>
                         <form action="<?php echo base_url('/account/try_login')?>" method="POST">
                             <p>
                                 <label>Ваш Email</label>
                             </p>
                             <p>
-                                <input type='text' name='email' placeholder="Введите ваш Email..." tabindex="1">
+                                <input type='text' name='email' placeholder="Введите ваш Email..." tabindex="1" class="big_field" autocomplete="off">
                             </p>
                             <p>
                                 <label>Ваш пароль</label>
                             </p>
                             <p>
-                                <input type='password' name='password' placeholder="Введите ваш пароль..." tabindex="2">
+                                <input type='password' name='password' placeholder="Введите ваш пароль..." tabindex="2" class="big_field" autocomplete="off">
                             </p>
                             <p class="text_align_center margin_top_20">
-                                <button class="btn btn_blue" type="submit"><i class="fa fa-check"></i> Войти в сервис</button>
+                                <button class="action_button" type="submit"><i class="fa fa-check"></i> Войти в сервис</button>
                             </p>
                         
                         </form>
-                        
-                        <div class="more_users border_top">
-                            <p class="text_align_center users_is_use">
-                                С нами уже <strong id="users_is_use">3 234</strong> пользователя!
-                            </p>
-                            
-                        </div>
+
                     </div>
                     <div class="clearfix"></div>
                 </div>

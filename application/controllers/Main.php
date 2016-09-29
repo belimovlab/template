@@ -22,4 +22,9 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+        
+        public function show_404()
+        {
+            echo "404";
+        }
 }

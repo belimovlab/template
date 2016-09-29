@@ -42,6 +42,7 @@
 * @property CI_Zip $zip
 * @property Auth $auth
  * @property Themelib $themelib
+ * @property Usermodel $usermodel
 */
 
 class CI_Controller {};

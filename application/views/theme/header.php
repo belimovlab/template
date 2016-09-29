@@ -15,7 +15,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link href="/assets/css/common/grid.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/common/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="/assets/css/common/common.css" rel="stylesheet" type="text/css"/>
-        
+        <script src="/assets/js/jquery-3.1.1.min.js"></script>
+        <script src="/assets/js/main_app.js"></script>
         <?php foreach($css as $one):?>
             <?php if($one):?>
                 <link href="/assets/css/<?php echo $one?>.css" rel="stylesheet" type="text/css"/>

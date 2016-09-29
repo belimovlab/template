@@ -5,6 +5,9 @@
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic);
 
+
+
+
 ul {
     list-style-position: inside;
     padding: 0;
@@ -237,7 +240,7 @@ header{
     -moz-border-radius: 3px;
     border-radius: 3px;
     display: block;
-    
+    background: #3062b8;
 }
 
 span.rating_top{
@@ -299,7 +302,6 @@ span.age_spec{
 
 }
 
-
 .offer_close{
     color: #8791b4;
     cursor: pointer;
@@ -312,10 +314,10 @@ span.age_spec{
     color: #576284;
 }
 
-
 .text_align_center{
     text-align: center;
 }
+
 .text_align_justify{
     text-align: justify;
 }
@@ -323,7 +325,6 @@ span.age_spec{
 .text_align_right{
     text-align: right;
 }
-
 
 .user_info_left{
     width: 500px;
@@ -349,7 +350,6 @@ span.age_spec{
     text-decoration: underline;
 }
 
-
 .user_info_left_item:first-child{
     padding-top: 0px;
 }
@@ -364,25 +364,22 @@ span.age_spec{
     font-weight: bold;
     float: left;
 }
+
 .user_info_left_item_value{
     width: 300px;
     display: inline-block;
     float: left;
 }
 
-
 .user_info_left_item_value ul{
     margin: 0px;
     padding: 5px 0px;
 }
 
-
 .user_info_left_item_value ul li{
     padding: 1px 0px;
     list-style: none;
 }
-
-
 
 .user_info_right{
     width: 300px;
@@ -426,14 +423,12 @@ span.right_edit a:hover{
     color: #2f2f2f;
 }
 
-
 .reviews_content{
     width: 100%;
     display: block;
     padding: 0px 5px; 
     margin-top: -35px;
 }
-
 
 .reviews_content_item{
     width: 260px;
@@ -442,13 +437,11 @@ span.right_edit a:hover{
     text-align: center;
 }
 
-
 p.reviews_value{
     font-size: 30px;
     font-weight: 300; 
     padding: 0px;
 }
-
 
 .reviews_plus:after{
     content: "";
@@ -470,7 +463,6 @@ p.reviews_value{
     background: #EC407A;
 }
 
-
 .reviews_neutral:after{
     content: "";
     display: block;
@@ -481,15 +473,11 @@ p.reviews_value{
     background: #03A9F4;
 }
 
-
-
-
 p.reviews_text{
     font-size: 13px;
     padding: 0px;
     margin-top: -25px;
 }
-
 
 a.full_button{
     color: #2A5880;
@@ -504,12 +492,10 @@ a.full_button{
     cursor: pointer;
 }
 
-
 a.full_button:hover{
     background: #e1e7f4;
     color: #2f2f2f;
 }
-
 
 .sub_button {
     background-color: #fff;
@@ -536,19 +522,16 @@ a.full_button:hover{
     outline: none;
 }
 
-
 .sub_button:hover{
     border: 1px solid rgba(0,0,0,.3);
     background: #f0f2f5;
     color: #444;
 }
 
-
 .best_content{
     display: block;
     width: 100%;
 }
-
 
 .best_content_item{
     display: inline-block;
@@ -564,7 +547,6 @@ a.full_button:hover{
     height: 150px;
     cursor: pointer;
 }
-
 
 .right_panel_sub_content{
     width: 100%;
@@ -593,8 +575,6 @@ a.full_button:hover{
     cursor: pointer;
 }
 
-
-
 .dark_panel_title{
     padding: 15px 30px;
     font-size: 13px;
@@ -604,7 +584,6 @@ a.full_button:hover{
     position: relative;
     word-wrap: break-word;
 }
-
 
 .dark_panel_title:after{
     content: "";
@@ -641,7 +620,6 @@ span.edit_right{
     display: inline-block;
 }
 
-
 span.edit_right a{
     color: #fff;
     text-decoration: none;
@@ -652,7 +630,6 @@ span.edit_right a{
     cursor: pointer;
 }
 
-
 span.edit_right a:hover{
     color: #fff;
     text-decoration: underline;
@@ -660,7 +637,6 @@ span.edit_right a:hover{
     border: none;
     line-height: 13px;
 }
-
 
 .right_panel_sub_content ul,li{
     list-style: none;
@@ -670,7 +646,6 @@ span.edit_right a:hover{
 .right_panel_sub_content li{
     padding: 10px;
 }
-
 
 .right_panel_sub_content li i{
     margin-right: 15px;
@@ -691,12 +666,10 @@ span.right_value {
     padding: 0px 2px;
 }
 
-
 .thank_mail{
     display: block;
     width: 100%;
 }
-
 
 .thank_mail_item{
     display: inline-block;
@@ -712,7 +685,6 @@ span.right_value {
     height: 200px;
     cursor: pointer;
 }
-
 
 p.cost_descr{
     text-align: right;
@@ -730,7 +702,6 @@ p.cost_descr{
     font-size: 30px;
     padding-bottom: 0px;
 }
-
 
 .sub_top{
     width: 100%;
@@ -752,7 +723,6 @@ p.cost_descr{
         
 }
 
-
 .sub_top .content_top a{
     padding: 5px 10px;
     text-decoration: none;
@@ -773,9 +743,6 @@ span.right_balance {
     float: right;
     display: inline-block;
 }
-
-
-
 
 .btn {
     display: inline-block;
@@ -799,7 +766,6 @@ span.right_balance {
     transform: scale(0.95);
 }
 
-
 .btn.btn_red{
     background: #e51c23;
     color: #fff;
@@ -818,7 +784,6 @@ span.right_balance {
     background: #40c4ff;
 }
 
-
 .btn.btn_green{
     background: #009688;
     color: #fff;
@@ -836,9 +801,6 @@ span.right_balance {
 .btn.btn_green1:hover{
     background: #259b24;
 }
-
-
-
 
 .registration_features{
     width: 100%;
@@ -868,8 +830,6 @@ a.registration_features_link{
     text-align: center;
     cursor: pointer;
 }
-
-
 
 a.registration_features_link:hover {
     color: #fff;
@@ -919,7 +879,6 @@ label{
     margin-top: 35px;
 }
 
-
 .more_users{
     padding: 15px 0px;
     font-size: 13px;
@@ -929,15 +888,13 @@ label{
     font-size: 30px;
 }
 
-
 .bottoms_links{
     font-size: 11px;
-    
+    margin: 20px 0px;
 }
 
-
 .bottoms_links a{
-    color: #333;
+    color: #aeb4ba;
     margin: 0px 10px;
     text-decoration: none;
 }
@@ -951,7 +908,6 @@ label{
     display: table; 
     height: 100%; 
 } 
-
 
 .actions_dates_item{ 
     width: 280px; 
@@ -970,13 +926,11 @@ label{
     display: table-cell; 
 } 
 
-
 .panel_inner_content{ 
     width: 100%; 
     display: block; 
 
 } 
-
 
 a.get_more_info{ 
     padding: 5px 7px; 
@@ -1015,8 +969,6 @@ a.get_more_info:hover{
     width: 220px; 
 } 
 
-
-
 .service_item_service_name{ 
     display: block; 
     width: 100%; 
@@ -1029,7 +981,6 @@ a.get_more_info:hover{
     font-weight: bold; 
     padding: 10px 0px;
 } 
-
 
 .service_item_service_cost{ 
     display: block; 
@@ -1050,20 +1001,164 @@ a.get_more_info:hover{
     text-align: center;
 }
 
+input.big_field{
+    display: block;
+    color: #020202;
+    font-weight: 300;
+    width: 100%;
+    height: 52px;
+    margin: 0;
+    padding: 0 15px 0 15px;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 50px;
+}
 
+input.big_field:focus{
+    border: 1px solid #03A9F4;
+}
 
+.action_button{
+    display: inline-block;
+    padding: 14px 14px;
+    background-color: #50abf1;
+    position: relative;
+    font-size: 14px;
+    color: #fff;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    border-radius: 3px;
+    border: none;
+}
 
+.action_button:hover {
+    opacity: .8;
+}
 
+.action_button i{
+    margin-right: 7px;
+}
 
+.font_size_20px{
+    font-size: 20px;
+}
 
+.font_size_11px{
+    font-size: 11px;
+}
 
+a.terms_user{
+    color: #03a9f4;
+}
 
+a.terms_user:hover{
+    color: #03a9f4;
+    text-decoration: underline;
+}
 
+.registration_wrapper{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
 
+.registration_specialist{
+    min-height: 16px;
+    padding: 23px 20px 23px 20px;
+    color: #ffb980;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+    background: #2196F3;
+    color: #fff;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    width: 50%;
+    text-align: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    border: 1px solid #2196F3;
+}
 
+.registration_specialist:hover{
+    opacity: .8;
+}
 
+.registration_user{
+    min-height: 16px;
+    padding: 23px 20px 23px 20px;
+    color: #2d4e6f;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    display: inline-block;
+    background: #4CAF50;
+    color: #fff;
+    width: 50%;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    text-align: center;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+    border: 1px solid #4CAF50;
+}
 
+.registration_user:hover{
+    opacity: .8;
+}
 
+.registration_user.border_spec{
+    border: 1px solid #2196F3;
+    background: #fff;
+    color: #2196F3;
+}
+
+.registration_specialist.border_user{
+    border: 1px solid #4CAF50;
+    background: #fff;
+    color: #4CAF50;
+}
+
+.padding_top_20px{
+    padding-top: 20px; 
+}
+
+p.error{
+    padding: 15px 25px;
+    color: #D81B60;
+    border: 1px solid #D81B60;
+    text-align: justify;
+}
+
+p.success{
+    padding: 15px 25px;
+    color: #388E3C;
+    border: 1px solid #388E3C;
+    text-align: justify;
+}
+
+input.reg_active_code{
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+ 
+}
 
 
 

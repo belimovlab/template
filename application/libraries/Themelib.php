@@ -30,7 +30,7 @@ class Themelib {
             {
                 $this->data['css']    = array_unique(explode(',', $css));
             }
-            $tmp_arr  = [];
+            $tmp_arr  = array();
             
             foreach ($this->data['css'] as $one)
             {
@@ -70,7 +70,8 @@ class Themelib {
             {
                 $this->data['js']    = array_unique(explode(',', $js));
             }
-            $tmp_arr  = [];
+            
+            $tmp_arr  = array();
             
             foreach ($this->data['js'] as $one)
             {
